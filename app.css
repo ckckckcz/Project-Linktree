@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Alice';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("./fuji.gif") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.vanta-burung {
+    width: 100%;
+    display: block;
+    background: transparent;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.card {
+    width: 300px;
+    height: 40px;
+    border: solid 1px rgba(255, 255, 255, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -o-border-radius: 19px;
+    display:flow-root;
+    font-size: 1em;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #ffffff;
+    background: transparent;
+    margin-bottom: 15px;
+}
+#card{
+    margin-top: 20px;
+}
+.card:hover {
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.02);
+    background: linear-gradient(to right, #343952, #5975AB) no-repeat ;
+    color: white;
+}
+h2 {
+    color: #ffffff;
+    padding-top: 0px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.tengah {
+    text-align: center;
+}
+
+.foto {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.foto img {
+    width: 100px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+
+.box {
+    border-radius: 19px;
+    width: 400px;
+    height: 700px;
+    text-align: center;
+    display: block;
+    /*background: #ffffff21;*/
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -o-border-radius: 19px;
+}
+
+.pd {
+    padding-bottom: 30px;
+    background: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+p{
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:680px) {
+    .card {
+        width: 70%;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    .foto {
+        width: 100%;
+    }
+
+    .box {
+        width: 80%;
+    }
+
+    h1 {
+        width: 100%;
+    }
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.copy{
+    margin-top: 50px;
+    font-size: 12px;
+}
+.icon {
+    margin: -11px;
+    margin-left: 5px;
+    width: 44px;
+    height: 44px;
+}
+.sv{
+    width: 45px;
+}
+.text{
+    font-size: 13.5px;
+    margin-left: none;
+    margin-top: -30px;
+}
+.sv2{
+    width: 25px;
+    margin-top: 11px;
+}
+.mail{
+    font-size: 13px;
+    position: relative;
+    margin-left: 250px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 11px;
+}
+.mail:hover{
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.02);
+    background: linear-gradient(to left, #343952, #5975AB);
+    border: transparent;
+    color: white;
+}
+@font-face {
+    font-family: 'Alice';
+    src: url('Alice-Regular.ttf') format('truetype');
+}
